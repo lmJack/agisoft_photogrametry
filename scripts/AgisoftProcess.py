@@ -21,7 +21,7 @@ def Scan():
 	path = os.getcwd()
 	print ("Home Directory: ", path)
 
-	ImageDirectory = path+"\\raw\\tiff\\"
+	ImageDirectory = path
 	os.chdir(ImageDirectory)
 	print ("Image Directory: ", ImageDirectory)
 	
